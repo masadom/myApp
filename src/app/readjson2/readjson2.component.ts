@@ -8,5 +8,7 @@ import countries from './_files/json1.json';
 })
 export class Readjson2Component {
   public countryList:{id:string, first_name:string,last_name:string,email:string,gender:string}[] = countries;
+  p: number = 1;
+  collection: any[] = countries;  
 
 }

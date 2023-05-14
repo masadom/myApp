@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { Api1Component } from './api1/api1.component';
 import { Api2Component } from './api2/api2.component';
 import { RouterModule } from '@angular/router';
+import {NgxPaginationModule} from 'ngx-pagination';
 import { Readjson1Component } from './readjson1/readjson1.component';
 import { Readjson2Component } from './readjson2/readjson2.component';
 
@@ -19,6 +20,7 @@ import { Readjson2Component } from './readjson2/readjson2.component';
   ],
   imports: [
     BrowserModule,
+    NgxPaginationModule,
     AppRoutingModule,
     HttpClientModule,
     RouterModule.forRoot([
