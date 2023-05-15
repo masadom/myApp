@@ -1,6 +1,7 @@
 <h2>First json</h2>
 <ul>
-    <li *ngFor="let item of collection | paginate: { itemsPerPage: 10, currentPage: p }"> <h3>Country Name :{{item.id}}, Code: {{item.first_name}} </h3></li>
+    <li *ngFor="let item of collection | paginate: { itemsPerPage: 10, currentPage: p }"> <h3>Id number: {{item.id}},   First Name: {{item.first_name}},   Last Name: {{item.last_name}}  </h3></li>
 </ul>
                
     <pagination-controls (pageChange)="p = $event"></pagination-controls>
+    

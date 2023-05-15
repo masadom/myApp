@@ -1,0 +1,27 @@
+        
+ul {
+    display: block;
+    margin-left: -10px;
+  }
+  
+  ul li {
+    display: block;
+    position: relative;
+  }
+  
+  ul li:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  
+  ul li:before {
+    content: "";
+    position: absolute;
+    top: 1.2em;
+    left: -30px;
+    margin-top: -.9em;
+    background: #f69ec4;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+  }
+      
