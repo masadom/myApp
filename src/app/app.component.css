@@ -41,19 +41,20 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-right: 20px;
 }
 
-.button-74:hover {
+.button:hover {
   background-color: #fff;
 }
 
-.button-74:active {
+.button:active {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
 @media (min-width: 768px) {
-  .button-74 {
+  .button {
     min-width: 120px;
     padding: 0 25px;
   }
